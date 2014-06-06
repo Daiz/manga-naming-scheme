@@ -3,7 +3,7 @@
 #### **Name of Manga [lang] - ch000-000 (v00) [Extra Information] [Group]{revision}.zip**
 
 - **Name of Manga** is ***required***. A full title ***must*** always be used. New releases ***must*** use the same title as older releases. For first releases with no older releases to go by, here is how the title should be decided:
-  - Japanese should be romanized with [Hepburn romanization](http://en.wikipedia.org/wiki/Hepburn_romanization).
+  - Japanese should be romanized with [Hepburn romanization](http://en.wikipedia.org/wiki/Hepburn_romanization). Long vowels (ō, ū, etc) are to be written without macrons (ou, uu, etc).
   - Non-Japanese katakana words should be romanized to the matching language (eg. レールガン should become "Railgun").
   - If a kanji is given a foreign katakana reading, the previous also applies (eg. 超電磁砲 read as レールガン should be "Railgun", ***not*** "Choudenjihou")
   - If the series has a canonical English / Western name to go with its Japanese kanji title, it should be used instead of romanizing the Japanese kanji. Examples:
