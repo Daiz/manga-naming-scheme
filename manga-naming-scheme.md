@@ -6,6 +6,11 @@
   - Japanese should be romanized with [Hepburn romanization](http://en.wikipedia.org/wiki/Hepburn_romanization). Long vowels (ō, ū, etc) are to be written without macrons (ou, uu, etc).
   - Non-Japanese katakana words should be romanized to the matching language (eg. レールガン should become "Railgun").
   - If a kanji is given a foreign katakana reading, the previous also applies (eg. 超電磁砲 read as レールガン should be "Railgun", ***not*** "Choudenjihou")
+  - If the series has a canonical English / Western name to go with its Japanese kanji title, it should be used instead of romanizing the Japanese kanji. Examples:
+      -  シドニアの騎士 should use "Knights of Sidonia", ***not*** "Sidonia no Kishi"
+      - 蒼き鋼のアルペジオ should use "Arpeggio of Blue Steel", ***not*** "Aoki Hagane no Arpeggio"
+      - 鋼の錬金術師 should use "Fullmetal Alchemist", ***not*** "Hagane no Renkinjutsushi"
+      - 進撃の巨人 should use "Attack on Titan", ***not*** "Shingeki no Kyojin"
   - Title Case ***should*** be used for capitalization.
 - **[lang]** is a [three-letter ISO-639-2 language code](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) ***required*** for Non-English releases. English releases are ***required*** to omit this.
 - **ch000** chapter number is ***required***. If multiple chapters are included (eg. if you are doing a full volume release), the range ***must*** be indicated with the **-000**. Chapter numbers ***must*** be padded to three digits minimum.
