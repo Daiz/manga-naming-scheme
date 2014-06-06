@@ -6,7 +6,7 @@
   - Japanese should be romanized with [Hepburn romanization](http://en.wikipedia.org/wiki/Hepburn_romanization). Long vowels (ō, ū, etc) are to be written without macrons (ou, uu, etc).
   - Non-Japanese katakana words should be romanized to the matching language (eg. レールガン should become "Railgun").
   - If a kanji is given a foreign katakana reading, the previous also applies (eg. 超電磁砲 read as レールガン should be "Railgun", ***not*** "Choudenjihou")
-  - If the series has a canonical English / Western name made by the original authors to go with its Japanese kanji title, it should be used instead of romanizing the Japanese kanji. Examples:
+  - If the series has a canonical English / Western name *from the original author(s)* to go with its Japanese kanji title, it should be used instead of romanizing the Japanese kanji. Examples:
       -  シドニアの騎士 should use "Knights of Sidonia", ***not*** "Sidonia no Kishi"
       - 蒼き鋼のアルペジオ should use "Arpeggio of Blue Steel", ***not*** "Aoki Hagane no Arpeggio"
       - 鋼の錬金術師 should use "Fullmetal Alchemist", ***not*** "Hagane no Renkinjutsushi"
