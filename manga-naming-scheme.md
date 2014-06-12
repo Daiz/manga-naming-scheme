@@ -38,7 +38,7 @@ Name of Manga - ch014 [BarScans]{v2}.zip
 Name of Manga - ch015 [BarScans].zip
 Name of Manga - ch015.1 (v03) [Omake] [FooScans].zip
 Name of Manga - ch015.2 (v03) [Extras] [FooScans].zip
-Name of Manga - ch016-020 (v04) [FooScans].zip
+Name of Manga - ch016-020.1 (v04) [FooScans].zip
 Name of Manga [jpn] - ch011-015.2 (v03) [Unknown].zip
 Name of Manga [jpn] - ch014 [Unknown].zip
 ```
