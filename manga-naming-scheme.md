@@ -50,7 +50,7 @@
     Way Too Much Bonus Chapters - c020 y10 (v04) [Group].zip
     Way Too Much Bonus Chapters - c020 y11 (v04) [Group].zip
 ```
-- **(mag)** or **(v00)** is ***required*** - all magazine scans **must** use the former, and all tankoubon scans **must** use the latter, with the appropriate volume number. Volume numbers are **unallowed** for magazine scans. Volume numbers ***must*** be padded to two digits minimum. If volume numbers go beyond two digits, **v** is to be changed to **w** to ensure proper sorting.
+- **(mag)** or **(v00)** is ***required*** - all magazine scans **must** use the former, and all tankoubon scans **must** use the latter, with the appropriate volume number. Volume numbers are **unallowed** for magazine scans. Volume numbers ***must*** be padded to two digits minimum. If no volume number is present, **(v00)** should be used. If volume numbers go beyond two digits, **v** is to be changed to **w** to ensure proper sorting.
 - **[Extra Information]** is ***optional***.
 - **[Group]** is ***required***. If group is not known, **[Unknown]** ***must*** be used.
 - **{revision}** is ***optional***. Recommended formatting is either **{r0}** or **{v0}**.
