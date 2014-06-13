@@ -39,7 +39,7 @@
     Serialized in Two Magazines - c002 (mag) [Magazine One] [Group].zip
     Serialized in Two Magazines - c002 x1 (mag) [Magazine Two] [Group].zip
     
-    Lots of Bonus Chapters - c014 (mag) [Gangan] [Group].zip
+    Lots of Bonus Chapters - c014 (mag) [Group].zip
     Lots of Bonus Chapters - c014 x1 (mag) [Extra] [Group].zip
     Lots of Bonus Chapters - c014 x2 (mag) [Special Arc 1] [Group].zip
     Lots of Bonus Chapters - c014 x3 (mag) [Special Arc 2] [Group].zip
