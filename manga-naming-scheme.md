@@ -40,7 +40,7 @@
     
     Very Unrealistic But Technically Possible - 000-d1500 (mag) [Group].zip
 ```
-- **x0** is intended to be used with chapters that deviate from a clear numbering system already in place and ***must*** be used for these, and ***must*** be left out for regular chapters. **[Extra Information]** is ***recommended*** in these cases to specify the type of the chapter. If sequential special chapters go beyond one digit, **x** is to be changed to **y**. In the rare case of specials going to three digits in the same sequence, **z** is to be used. Examples:
+- **x0** is intended to be used with chapters that deviate from a clear numbering system (eg. decimal chapter numbers like 10.5) already in place and ***must*** be used for these, and ***must*** be left out for regular chapters. **[Extra Information]** is ***recommended*** in these cases to specify the type of the chapter. If sequential special chapters go beyond one digit, **x** is to be changed to **y**. In the rare case of specials going to three digits in the same sequence, **z** is to be used. Examples:
 ```
     Serialized in Two Magazines - c001 (mag) [Magazine One] [Group].zip
     Serialized in Two Magazines - c001 x1 (mag) [Magazine Two] [Group].zip
