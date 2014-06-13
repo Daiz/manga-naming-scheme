@@ -20,14 +20,14 @@
   - If chapter numbers go into four digits, the **c** ***must*** be changed into **d** to ensure correct sorting.
   - With chapter ranges, the second number ***must*** not have any unit associated with it, unless a numbering system transition happens. Examples:
 ```
-    Some Oneshot That Gets Serialized - 000 (mag) [Oneshot] [Group].zip
-    Some Oneshot That Gets Serialized - c001 (mag) [Group].zip
-    Some Oneshot That Gets Serialized - c002 (mag) [Group].zip
-    Unnumbered Initial Chapters - 001-003 (v01) [Group].zip
-    Unnumbered Initial Chapters - 009-014 (v04) [Group].zip
-    Unnumbered Initial Chapters - 015-c006 (v05) [Group].zip
-    Very Large Chapter Numbers - c986-995 (v98) [Group].zip
-    Very Large Chapter Numbers - c996-d1005 (v99) [Group].zip
+      Some Oneshot That Gets Serialized - 000 (mag) [Oneshot] [Group].zip
+      Some Oneshot That Gets Serialized - c001 (mag) [Group].zip
+      Some Oneshot That Gets Serialized - c002 (mag) [Group].zip
+      Unnumbered Initial Chapters - 001-003 (v01) [Group].zip
+      Unnumbered Initial Chapters - 009-014 (v04) [Group].zip
+      Unnumbered Initial Chapters - 015-c006 (v05) [Group].zip
+      Very Large Chapter Numbers - c986-995 (v98) [Group].zip
+      Very Large Chapter Numbers - c996-d1005 (v99) [Group].zip
 ```
 - **x0** is intended to be used with chapters that deviate from a clear numbering system already in place and ***must*** be used for these, and ***must*** be left out for regular chapters. **[Extra Information]** is ***recommended*** in these cases to specify the type of the chapter. If sequential special chapters go beyond one digit, **x** is to be changed to **y**. In the rare case of specials going to three digits in the same sequence, **z** is to be used. Examples:
   - Serialized in Two Magazines - c001 (mag) [Magazine One] [Group].zip
