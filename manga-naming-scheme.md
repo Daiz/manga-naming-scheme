@@ -27,6 +27,7 @@
     Unnumbered Initial Chapters - 001-003 (v01) [Group].zip
     Unnumbered Initial Chapters - 009-014 (v04) [Group].zip
     Unnumbered Initial Chapters - 015-c006 (v05) [Group].zip
+    Unnumbered Initial Chapters - c007-016 (v06) [Group].zip
     
     Very Large Chapter Numbers - c986-995 (v98) [Group].zip
     Very Large Chapter Numbers - c996-d1005 (v99) [Group].zip
