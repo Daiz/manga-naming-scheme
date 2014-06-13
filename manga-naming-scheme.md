@@ -36,6 +36,9 @@
     
     Very Large Chapter Numbers Bunched - c986-995 (v98) [Group].zip
     Very Large Chapter Numbers Bunched - c996-d1005 (v99) [Group].zip
+    Very Large Chapter Numbers Bunched - d1006-1015 (v99) [Group].zip
+    
+    Very Unrealistic But Technically Possible - 000-d1500 (v99) [Group].zip
 ```
 - **x0** is intended to be used with chapters that deviate from a clear numbering system already in place and ***must*** be used for these, and ***must*** be left out for regular chapters. **[Extra Information]** is ***recommended*** in these cases to specify the type of the chapter. If sequential special chapters go beyond one digit, **x** is to be changed to **y**. In the rare case of specials going to three digits in the same sequence, **z** is to be used. Examples:
 ```
