@@ -44,6 +44,8 @@
     Lots of Bonus Chapters - c014 x3 (mag) [Special Arc 2] [Group].zip
     Lots of Bonus Chapters - c014 x4 (mag) [Special Arc 3] [Group].zip
     Lots of Bonus Chapters - c014 x5 (mag) [Special Arc 4] [Group].zip
+    Lots of Bonus Chapters - c015  (mag) [Group].zip
+    Lots of Bonus Chapters - c015 x1 (mag) [Extra] [Group].zip
     
     Way Too Much Bonus Chapters - c020 x8 (v04) [Group].zip
     Way Too Much Bonus Chapters - c020 x9 (v04) [Group].zip
