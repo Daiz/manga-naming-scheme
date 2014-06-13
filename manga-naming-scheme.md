@@ -20,28 +20,36 @@
   - If chapter numbers go into four digits, the **c** ***must*** be changed into **d** to ensure correct sorting.
   - With chapter ranges, the second number ***must*** not have any unit associated with it, unless a numbering system transition happens. Examples:
 ```
-      Some Oneshot That Gets Serialized - 000 (mag) [Oneshot] [Group].zip
-      Some Oneshot That Gets Serialized - c001 (mag) [Group].zip
-      Some Oneshot That Gets Serialized - c002 (mag) [Group].zip
-      Unnumbered Initial Chapters - 001-003 (v01) [Group].zip
-      Unnumbered Initial Chapters - 009-014 (v04) [Group].zip
-      Unnumbered Initial Chapters - 015-c006 (v05) [Group].zip
-      Very Large Chapter Numbers - c986-995 (v98) [Group].zip
-      Very Large Chapter Numbers - c996-d1005 (v99) [Group].zip
+    Some Oneshot That Gets Serialized - 000 (mag) [Oneshot] [Group].zip
+    Some Oneshot That Gets Serialized - c001 (mag) [Group].zip
+    Some Oneshot That Gets Serialized - c002 (mag) [Group].zip
+    
+    Unnumbered Initial Chapters - 001-003 (v01) [Group].zip
+    Unnumbered Initial Chapters - 009-014 (v04) [Group].zip
+    Unnumbered Initial Chapters - 015-c006 (v05) [Group].zip
+    
+    Very Large Chapter Numbers - c986-995 (v98) [Group].zip
+    Very Large Chapter Numbers - c996-d1005 (v99) [Group].zip
 ```
 - **x0** is intended to be used with chapters that deviate from a clear numbering system already in place and ***must*** be used for these, and ***must*** be left out for regular chapters. **[Extra Information]** is ***recommended*** in these cases to specify the type of the chapter. If sequential special chapters go beyond one digit, **x** is to be changed to **y**. In the rare case of specials going to three digits in the same sequence, **z** is to be used. Examples:
-  - Serialized in Two Magazines - c001 (mag) [Magazine One] [Group].zip
-  - Serialized in Two Magazines - c001 x1 (mag) [Magazine Two] [Group].zip
-  - Lots of Bonus Chapters - c014 (mag) [Gangan] [Group].zip
-  - Lots of Bonus Chapters - c014 x1 (mag) [Extra] [Group].zip
-  - Lots of Bonus Chapters - c014 x2 (mag) [Special Arc 1] [Group].zip
-  - Lots of Bonus Chapters - c014 x3 (mag) [Special Arc 2] [Group].zip
-  - Lots of Bonus Chapters - c014 x4 (mag) [Special Arc 3] [Group].zip
-  - Lots of Bonus Chapters - c014 x5 (mag) [Special Arc 4] [Group].zip
-  - Way Too Much Bonus Chapters - c020 x8 (v04) [Group].zip
-  - Way Too Much Bonus Chapters - c020 x9 (v04) [Group].zip
-  - Way Too Much Bonus Chapters - c020 y10 (v04) [Group].zip
-  - Way Too Much Bonus Chapters - c020 y11 (v04) [Group].zip
+```
+    Serialized in Two Magazines - c001 (mag) [Magazine One] [Group].zip
+    Serialized in Two Magazines - c001 x1 (mag) [Magazine Two] [Group].zip
+    Serialized in Two Magazines - c002 (mag) [Magazine One] [Group].zip
+    Serialized in Two Magazines - c002 x1 (mag) [Magazine Two] [Group].zip
+    
+    Lots of Bonus Chapters - c014 (mag) [Gangan] [Group].zip
+    Lots of Bonus Chapters - c014 x1 (mag) [Extra] [Group].zip
+    Lots of Bonus Chapters - c014 x2 (mag) [Special Arc 1] [Group].zip
+    Lots of Bonus Chapters - c014 x3 (mag) [Special Arc 2] [Group].zip
+    Lots of Bonus Chapters - c014 x4 (mag) [Special Arc 3] [Group].zip
+    Lots of Bonus Chapters - c014 x5 (mag) [Special Arc 4] [Group].zip
+    
+    Way Too Much Bonus Chapters - c020 x8 (v04) [Group].zip
+    Way Too Much Bonus Chapters - c020 x9 (v04) [Group].zip
+    Way Too Much Bonus Chapters - c020 y10 (v04) [Group].zip
+    Way Too Much Bonus Chapters - c020 y11 (v04) [Group].zip
+```
 - **(mag)** or **(v00)** is ***required*** - all magazine scans **must** use the former, and all tankoubon scans **must** use the latter, with the appropriate volume number. Volume numbers are **unallowed** for magazine scans. Volume numbers ***must*** be padded to two digits minimum. If volume numbers go beyond two digits, **v** is to be changed to **w** to ensure proper sorting.
 - **[Extra Information]** is ***optional***.
 - **[Group]** is ***required***. If group is not known, **[Unknown]** ***must*** be used.
