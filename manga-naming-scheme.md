@@ -1,6 +1,6 @@
 # Manga Naming Scheme
 
-#### **Name of Manga [lang] - ch000-000 (v00) [Extra Information] [Group]{revision}.zip**
+#### **Name of Manga [lang] - c000-000 x0 (mag/v00) [Extra Information] [Group]{revision}.zip**
 
 - **Name of Manga** is ***required***. A full title ***must*** always be used. New releases ***must*** use the same title as older releases. For first releases with no older releases to go by, here is how the title should be decided:
   - Japanese should be romanized with [Hepburn romanization](http://en.wikipedia.org/wiki/Hepburn_romanization). Long vowels (ō, ū, etc) are to be written without macrons (ou, uu, etc).
@@ -13,8 +13,24 @@
       - 進撃の巨人 should use "Attack on Titan", ***not*** "Shingeki no Kyojin"
   - Title Case ***should*** be used for capitalization.
 - **[lang]** is a [three-letter ISO-639-2 language code](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) ***required*** for Non-English releases. English releases are ***required*** to omit this.
-- **ch000** chapter number is ***required***. If multiple chapters are included (eg. if you are doing a full volume release), the range ***must*** be indicated with the **-000**. Chapter numbers ***must*** be padded to three digits minimum.
-- If a chapter has no clear number associated with it, the logically or chronologically previous chapter number should be chosen and incremented by 0.1 - **[Extra Information]** is ***recommended*** in these cases to specify the type of the chapter.
+- **c000** chapter number is ***required***. If multiple chapters are included (eg. if you are doing a full volume release), the range ***must*** be indicated with the **-000**. Chapter numbers ***must*** be padded to three digits minimum.
+  - If a series start with no clear chapter numbering of its own, the **c** ***must*** be dropped so that only numbers remain.
+  - If the series starts using clear chapter numbers at some point afterwards, then the **c** ***must*** be reintroduced.
+  - If chapter numbers go into four digits, the **c** ***must*** be changed into **d** to ensure correct sorting.
+  - With chapter ranges, the second number ***must*** not have any unit associated with it, unless a numbering system transition happens. Examples:
+    - Unnumbered Initial Chapters - 001-003 (v01) [Group].zip
+    - Unnumbered Initial Chapters - 009-014 (v04) [Group].zip
+    - Unnumbered Initial Chapters - 015-c006 (v05) [Group].zip
+    - Very Large Chapter Numbers - c986-995 (v98) [Group].zip
+    - Very Large Chapter Numbers - c996-d1005 (v99) [Group].zip
+- **x0** is intended to be used with chapters that deviate from a clear numbering system already in place and ***must*** be used for these, and ***must*** be left out for regular chapters. **[Extra Information]** is ***recommended*** in these cases to specify the type of the chapter. Examples:
+  - Serialized in Two Magazines - c001 (mag) [Gangan] [Group].zip
+  - Serialized in Two Magazines - c001 x1 (mag) [Joker] [Group].zip
+  - Lots of Bonus Chapters - c014 (mag) [Gangan] [Group].zip
+  - Lots of Bonus Chapters - c014 x1 (mag) [Extra] [Group].zip
+  - Lots of Bonus Chapters - c014 x2 (mag) [Special Arc 1] [Group].zip
+  - Lots of Bonus Chapters - c014 x2 (mag) [Special Arc 1] [Group].zip
+  - Lots of Bonus Chapters - c014 x2 (mag) [Special Arc 1] [Group].zip
 - **(v00)** volume numbering is ***required*** for tankobon scans, and ***unallowed*** for magazine scans. This allows one to easily distinguish magazine and tankobon releases, and volume information usually is not available at the time of a magazine release anyway. Volume numbers ***must*** be padded to two digits minimum.
 - **[Extra Information]** is ***optional***.
 - **[Group]** is ***required***. If group is not known, **[Unknown]** ***must*** be used.
