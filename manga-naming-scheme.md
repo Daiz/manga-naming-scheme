@@ -15,46 +15,51 @@
 - **[lang]** is a [three-letter ISO-639-2 language code](http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) ***required*** for Non-English releases. English releases are ***required*** to omit this.
 - **c000** chapter number is ***required***. If multiple chapters are included (eg. if you are doing a full volume release), the range ***must*** be indicated with the **-000**. Chapter numbers ***must*** be padded to three digits minimum.
   - If a series start with no clear chapter numbering of its own, the **c** ***must*** be dropped so that only numbers remain.
+  - Oneshots should be numbered as **000**, with no **c** in front. **[Extra Information]** stating that it is a oneshot **should** be included.
   - If the series starts using clear chapter numbers at some point afterwards, then the **c** ***must*** be reintroduced.
   - If chapter numbers go into four digits, the **c** ***must*** be changed into **d** to ensure correct sorting.
   - With chapter ranges, the second number ***must*** not have any unit associated with it, unless a numbering system transition happens. Examples:
+    - Some Oneshot That Gets Serialized - 000 (mag) [Oneshot] [Group].zip
+    - Some Oneshot That Gets Serialized - c001 (mag) [Group].zip
+    - Some Oneshot That Gets Serialized - c002 (mag) [Group].zip
     - Unnumbered Initial Chapters - 001-003 (v01) [Group].zip
     - Unnumbered Initial Chapters - 009-014 (v04) [Group].zip
     - Unnumbered Initial Chapters - 015-c006 (v05) [Group].zip
     - Very Large Chapter Numbers - c986-995 (v98) [Group].zip
     - Very Large Chapter Numbers - c996-d1005 (v99) [Group].zip
-- **x0** is intended to be used with chapters that deviate from a clear numbering system already in place and ***must*** be used for these, and ***must*** be left out for regular chapters. **[Extra Information]** is ***recommended*** in these cases to specify the type of the chapter. Examples:
-  - Serialized in Two Magazines - c001 (mag) [Gangan] [Group].zip
-  - Serialized in Two Magazines - c001 x1 (mag) [Joker] [Group].zip
+- **x0** is intended to be used with chapters that deviate from a clear numbering system already in place and ***must*** be used for these, and ***must*** be left out for regular chapters. **[Extra Information]** is ***recommended*** in these cases to specify the type of the chapter. If sequential special chapters go beyond one digit, **x** is to be changed to **y**. In the rare case of specials going to three digits in the same sequence, **z** is to be used. Examples:
+  - Serialized in Two Magazines - c001 (mag) [Magazine One] [Group].zip
+  - Serialized in Two Magazines - c001 x1 (mag) [Magazine Two] [Group].zip
   - Lots of Bonus Chapters - c014 (mag) [Gangan] [Group].zip
   - Lots of Bonus Chapters - c014 x1 (mag) [Extra] [Group].zip
   - Lots of Bonus Chapters - c014 x2 (mag) [Special Arc 1] [Group].zip
-  - Lots of Bonus Chapters - c014 x2 (mag) [Special Arc 1] [Group].zip
-  - Lots of Bonus Chapters - c014 x2 (mag) [Special Arc 1] [Group].zip
-- **(v00)** volume numbering is ***required*** for tankobon scans, and ***unallowed*** for magazine scans. This allows one to easily distinguish magazine and tankobon releases, and volume information usually is not available at the time of a magazine release anyway. Volume numbers ***must*** be padded to two digits minimum.
+  - Lots of Bonus Chapters - c014 x3 (mag) [Special Arc 2] [Group].zip
+  - Lots of Bonus Chapters - c014 x4 (mag) [Special Arc 3] [Group].zip
+  - Lots of Bonus Chapters - c014 x5 (mag) [Special Arc 4] [Group].zip
+  - Way Too Much Bonus Chapters - c020 x8 (v04) [Group].zip
+  - Way Too Much Bonus Chapters - c020 x9 (v04) [Group].zip
+  - Way Too Much Bonus Chapters - c020 y10 (v04) [Group].zip
+  - Way Too Much Bonus Chapters - c020 y11 (v04) [Group].zip
+- **(mag)** or **(v00)** is ***required*** - all magazine scans **must** use the former, and all tankoubon scans **must** use the latter, with the appropriate volume number. Volume numbers are **unallowed** for magazine scans. Volume numbers ***must*** be padded to two digits minimum. If volume numbers go beyond two digits, **v** is to be changed to **w** to ensure proper sorting.
 - **[Extra Information]** is ***optional***.
 - **[Group]** is ***required***. If group is not known, **[Unknown]** ***must*** be used.
 - **{revision}** is ***optional***. Recommended formatting is either **{r0}** or **{v0}**.
 - **.zip** A file extension is ***required***. Zip is the ***recommended*** archive format due to its universality.
 
-### Exceptions for Oneshots
-- Oneshots ***must*** omit all numbering - **ch000-000 (v00)**.
-- Oneshots ***must*** include **[Extra Information]**, which ***must*** include *Oneshot* at minimum.
-
 ### Examples (In natural sorting order)
 ```
-Name of Manga - [Oneshot from Comic Q] [Unknown].zip
-Name of Manga - ch001-005.1 (v01) [Unknown].zip
-Name of Manga - ch006-010 (v02) [FooScans].zip
-Name of Manga - ch010.1 (v02) [Omake] [FooScans].zip
+Name of Manga - 000 (mag) [Oneshot from Comic Q] [Unknown].zip
+Name of Manga - c001-005 x1 (v01) [Unknown].zip
+Name of Manga - c006-010 (v02) [FooScans].zip
+Name of Manga - ch010 x1 (v02) [Omake] [FooScans].zip
 Name of Manga - ch011 (v03) [FooScans].zip
-Name of Manga - ch012-013 [BarScans].zip
-Name of Manga - ch014 [BarScans].zip
-Name of Manga - ch014 [BarScans]{v2}.zip
-Name of Manga - ch015 [BarScans].zip
-Name of Manga - ch015.1 (v03) [Omake] [FooScans].zip
-Name of Manga - ch015.2 (v03) [Extras] [FooScans].zip
-Name of Manga - ch016-020.1 (v04) [FooScans].zip
-Name of Manga [jpn] - ch011-015.2 (v03) [Unknown].zip
-Name of Manga [jpn] - ch014 [Unknown].zip
+Name of Manga - ch012-013 (mag) [BarScans].zip
+Name of Manga - ch014 (mag) [BarScans].zip
+Name of Manga - ch014 (mag) [BarScans]{v2}.zip
+Name of Manga - ch015 (mag) [BarScans].zip
+Name of Manga - ch015 x1 (v03) [Omake] [FooScans].zip
+Name of Manga - ch015 x2 (v03) [Extras] [FooScans].zip
+Name of Manga - ch016-020 x1 (v04) [FooScans].zip
+Name of Manga [jpn] - ch011-015 x2 (v03) [Unknown].zip
+Name of Manga [jpn] - ch014 (mag) [Unknown].zip
 ```
