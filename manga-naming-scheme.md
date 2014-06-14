@@ -73,15 +73,15 @@
 Name of Manga - 000 (mag) [Oneshot from Comic Q] [Unknown].zip
 Name of Manga - c001-005 x1 (v01) [Unknown].zip
 Name of Manga - c006-010 (v02) [FooScans].zip
-Name of Manga - ch010 x1 (v02) [Omake] [FooScans].zip
-Name of Manga - ch011 (v03) [FooScans].zip
-Name of Manga - ch012-013 (mag) [BarScans].zip
-Name of Manga - ch014 (mag) [BarScans].zip
-Name of Manga - ch014 (mag) [BarScans]{v2}.zip
-Name of Manga - ch015 (mag) [BarScans].zip
-Name of Manga - ch015 x1 (v03) [Omake] [FooScans].zip
-Name of Manga - ch015 x2 (v03) [Extras] [FooScans].zip
-Name of Manga - ch016-020 x1 (v04) [FooScans].zip
-Name of Manga [jpn] - ch011-015 x2 (v03) [Unknown].zip
-Name of Manga [jpn] - ch014 (mag) [Unknown].zip
+Name of Manga - c010 x1 (v02) [Omake] [FooScans].zip
+Name of Manga - c011 (v03) [FooScans].zip
+Name of Manga - c012-013 (mag) [BarScans].zip
+Name of Manga - c014 (mag) [BarScans].zip
+Name of Manga - c014 (mag) [BarScans]{v2}.zip
+Name of Manga - c015 (mag) [BarScans].zip
+Name of Manga - c015 x1 (v03) [Omake] [FooScans].zip
+Name of Manga - c015 x2 (v03) [Extras] [FooScans].zip
+Name of Manga - c016-020 x1 (v04) [FooScans].zip
+Name of Manga [jpn] - c011-015 x2 (v03) [Unknown].zip
+Name of Manga [jpn] - c014 (mag) [Unknown].zip
 ```
