@@ -1,0 +1,53 @@
+upper-case  = "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I"
+            | "J" | "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R"
+            | "S" | "T" | "U" | "V" | "W" | "X" | "Y" | "Z" ;
+lower-case  = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i"
+            | "j" | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r"
+            | "s" | "t" | "u" | "v" | "w" | "x" | "y" | "z" ;
+digit       = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
+symbol      = "{" | "}" | "(" | ")" | "&" | "!"
+            | "'" | "=" | "." | "," | ";" | "_" ;
+brackets    = "[" | "]" ;
+dash        = "-" ;
+space       = " " ;
+
+character   = upper-case | lower-case | digit | symbol | brackets ;
+group-char  = upper-case | lower-case | digit | symbol ;
+ext-char    = upper-case | lower-case | digit ;
+
+num1        = 1 * digit ;
+num2        = 2 * digit ;
+num3        = 3 * digit ;
+num4        = 4 * digit ;
+
+optional    = space ;
+
+name        = character, { character | space }  ;
+language    = optional, "[", 3 * lower-case, "]" ;
+separator   = space, dash, space ;
+cnum        = "c", num3 ;
+dnum        = "d", num4 ;
+chapter     = num3 | cnum | dnum
+            | num3, "-", num3 | num3, "-", cnum | num3, "-", dnum
+            | cnum, "-", num3 | cnum, "-", dnum
+            | dnum, "-", num4 ;
+
+special     = optional, ("x", num1 | "y", num2 | "z", num3) ;
+
+magazine    = "mag" ;
+vnum        = "v", num2 ;
+wnum        = "w", num3 ;
+volume      = vnum | wnum
+            | vnum, "-", num2 | vnum, "-", wnum
+            | wnum, "-", num3 ;
+publication = "(", (magazine | volume), ")" ;
+
+extra       = optional, "[", character, { character | space }, "]" ;
+group       = "[", group-char, { group-char | space }, "]" ;
+revision    = "{", ("r" | "v"), digit, { digit }, "}" ;
+extension   = ".", 2 * ext-char, {10 * ext-char} ;
+
+scheme      = name, [language], separator
+            , chapter, [special], space, publication
+            , [extra], space, group, [revision], extension
+            ;
