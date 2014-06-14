@@ -15,7 +15,7 @@ character   = upper-case | lower-case | digit | symbol | brackets ;
 group-char  = upper-case | lower-case | digit | symbol ;
 ext-char    = upper-case | lower-case | digit ;
 
-num1        = 1 * digit ;
+num1        = digit ;
 num2        = 2 * digit ;
 num3        = 3 * digit ;
 num4        = 4 * digit ;
