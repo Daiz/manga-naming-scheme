@@ -49,5 +49,4 @@ extension   = ".", 2 * ext-char, {10 * ext-char} ;
 
 scheme      = name, [language], separator
             , chapter, [special], space, publication
-            , [extra], space, group, [revision], extension
-            ;
+            , [extra], space, group, [revision], extension ;
