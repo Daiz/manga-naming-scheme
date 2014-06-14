@@ -45,7 +45,7 @@ publication = "(", (magazine | volume), ")" ;
 extra       = optional, "[", character, { character | space }, "]" ;
 group       = "[", groupchar, { groupchar | space }, "]" ;
 revision    = "{", ("r" | "v"), digit, { digit }, "}" ;
-extension   = ".", 2 * extchar, 10 * [extchar] ;
+extension   = ".", extchar, 11 * [extchar] ;
 
 scheme      = name, [language], separator
             , chapter, [special], space, publication
