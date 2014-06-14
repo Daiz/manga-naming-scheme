@@ -20,10 +20,8 @@ num2        = 2 * digit ;
 num3        = 3 * digit ;
 num4        = 4 * digit ;
 
-optional    = space ;
-
 name        = character, { character | space }  ;
-language    = optional, "[", 3 * lowercase, "]" ;
+language    = space, "[", 3 * lowercase, "]" ;
 separator   = space, dash, space ;
 cnum        = "c", num3 ;
 dnum        = "d", num4 ;
@@ -32,7 +30,7 @@ chapter     = num3 | cnum | dnum
             | cnum, "-", num3 | cnum, "-", dnum
             | dnum, "-", num4 ;
 
-special     = optional, ("x", num1 | "y", num2 | "z", num3) ;
+special     = space, ("x", num1 | "y", num2 | "z", num3) ;
 
 magazine    = "mag" ;
 vnum        = "v", num2 ;
@@ -42,7 +40,7 @@ volume      = vnum | wnum
             | wnum, "-", num3 ;
 publication = "(", (magazine | volume), ")" ;
 
-extra       = optional, "[", character, { character | space }, "]" ;
+extra       = space, "[", character, { character | space }, "]" ;
 group       = "[", groupchar, { groupchar | space }, "]" ;
 revision    = "{", ("r" | "v"), digit, { digit }, "}" ;
 extension   = ".", extchar, 11 * [extchar] ;
