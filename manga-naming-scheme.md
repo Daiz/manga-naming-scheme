@@ -1,6 +1,6 @@
-# Manga Naming Scheme
+# Manga Archive Naming Scheme
 
-#### **Name of Manga [lang] - c000-000 x0 (mag/v00-00) [Extra Information] [Group]{revision}.zip**
+#### **Name of Manga [lang] - c000-000 x0 (mag/mix/v00-00) [Extra Information] [Group]{revision}.zip**
 
 - **Name of Manga** is ***required***. A full title ***must*** always be used. New releases ***must*** use the same title as older releases. For first releases with no older releases to go by, here is how the title should be decided:
   - Japanese should be romanized with [Hepburn romanization](http://en.wikipedia.org/wiki/Hepburn_romanization). Long vowels (ō, ū, etc) are to be written without macrons (ou, uu, etc).
@@ -62,7 +62,7 @@
     Way Too Much Bonus Chapters - c020 y10 (v04) [Group].zip
     Way Too Much Bonus Chapters - c020 y11 (v04) [Group].zip
 ```
-- **(mag)** or **(v00)** is ***required*** - all magazine scans **must** use the former, and all tankoubon scans **must** use the latter, with the appropriate volume number. Volume numbers are **unallowed** for magazine scans. If multiple volumes are included in a single archive, the range ***must*** be indicated with the **-00**. However, this is ***not recommended***. The range is **required** not to include an unit unless a range transition happens, ie. **v99-w100**. Volume numbers ***must*** be padded to two digits minimum. If no volume number is present, **(v00)** ***must*** be used. If volume numbers go beyond two digits, **v** is to be changed to **w** to ensure proper sorting.
+- **(mag)** or **(v00)** or **(mix)** is ***required*** - all magazine scans **must** use the first one, all tankoubon scans **must** use the second, with the appropriate volume number, and any mixed content containing pages from both magazines and volumes **must** use the third option. Volume numbers are **unallowed** for magazine scans. If multiple volumes are included in a single archive, the range ***must*** be indicated with the **-00**. However, this is ***not recommended***. The range is **required** not to include an unit unless a range transition happens, ie. **v99-w100**. Volume numbers ***must*** be padded to two digits minimum. If no volume number is present, **(v00)** ***must*** be used. If volume numbers go beyond two digits, **v** is to be changed to **w** to ensure proper sorting.
 - **[Extra Information]** is ***optional***.
 - **[Group]** is ***required***. If group is not known, **[Unknown]** ***must*** be used.
 - **{revision}** is ***optional***. Recommended formatting is either **{r0}** or **{v0}**.
@@ -85,3 +85,7 @@ Name of Manga - c016-020 x1 (v04) [FooScans].zip
 Name of Manga [jpn] - c011-015 x2 (v03) [Unknown].zip
 Name of Manga [jpn] - c014 (mag) [Unknown].zip
 ```
+
+# Manga Page Naming Scheme
+
+This will define how to name individual pages inside archives. To be added.
