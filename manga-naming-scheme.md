@@ -1,4 +1,18 @@
-# Manga Archive Naming Scheme
+# Manga Naming Scheme
+
+This document defines filename schemes for digital manga content consisting of image files (pages) inside archives. Rules are defined for how to name both the archive files and the image files inside said archives.
+
+## Goals
+
+* Filenames should always sort properly in chronological chapter order under any and all circumstances.
+* Filenames should never have to be renamed after release to ensure proper sorting.
+* No guessing should ever be necessary when naming files.
+* All filenames should be machine-parseable in a reasonable manner.
+* One should be able to repack multiple archives together.
+* One should be able to repack compilation archives back into separate archives.
+* In other words, repacking should always be a lossless operation information-wise.
+
+## Archive Names
 
 #### **Name of Manga [lang] - c000-000 x0 (mag/mix/v00-00) [Extra Information] [Group]{revision}.zip**
 
@@ -86,6 +100,6 @@ Name of Manga [jpn] - c011-015 x2 (v03) [Unknown].zip
 Name of Manga [jpn] - c014 (mag) [Unknown].zip
 ```
 
-# Manga Page Naming Scheme
+# Page Names
 
 This will define how to name individual pages inside archives. To be added.
