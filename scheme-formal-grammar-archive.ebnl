@@ -33,12 +33,13 @@ chapter     = num3 | cnum | dnum
 special     = space, ("x", num1 | "y", num2 | "z", num3) ;
 
 magazine    = "mag" ;
+mixed       = "mix" ;
 vnum        = "v", num2 ;
 wnum        = "w", num3 ;
 volume      = vnum | wnum
             | vnum, "-", num2 | vnum, "-", wnum
             | wnum, "-", num3 ;
-publication = "(", (magazine | volume), ")" ;
+publication = "(", (magazine | mixed | volume), ")" ;
 
 extra       = space, "[", character, { character | space }, "]" ;
 group       = "[", groupchar, { groupchar | space }, "]" ;
