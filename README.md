@@ -77,7 +77,7 @@ This document defines filename schemes for digital manga content consisting of i
     Way Too Much Bonus Chapters - c020 y11 (v04) [Group].zip
 ```
 - **(mag)** or **(web)** **(v00)** or **(mix)** is ***required*** - all magazine scans **must** use the first one, all non-volume web releases **must** use the second one, all tankoubon releases (whether scans or digital) **must** use the third one, with the appropriate volume number, and any mixed content containing pages from, magazines, web versions and/or volumes **must** use the third option. Volume numbers are **unallowed** for magazine scans and web releases. If multiple volumes are included in a single archive, the range ***must*** be indicated with the **-00**. However, this is ***not recommended***. The range is **required** not to include an unit unless a range transition happens, ie. **v99-w100**. Volume numbers ***must*** be padded to two digits minimum. If no volume number is present, **(v00)** ***must*** be used. If volume numbers go beyond two digits, **v** is to be changed to **w** to ensure proper sorting.
-- **[Extra Information]** is ***optional***.
+- **[Extra Information]** is ***optional***. It is **recommended** to use it for describing the nature of the content if there is something noteworthy about it, such as a volume extra being described as *[Omake]*.
 - **[Group]** is ***required***. If group is not known, **[Unknown]** ***must*** be used.
 - **{revision}** is ***optional***. Recommended formatting is either **{r0}** or **{v0}**.
 - **.zip** A file extension is ***required***. Zip is the ***recommended*** archive format due to its universality.
