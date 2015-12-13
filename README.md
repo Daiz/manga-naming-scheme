@@ -12,6 +12,10 @@ This document defines filename schemes for digital manga content consisting of i
 * One should be able to repack compilation archives back into separate archives.
 * In other words, repacking should always be a lossless operation information-wise.
 
+## Want to contribute?
+
+[Open an issue](https://github.com/Daiz/manga-naming-scheme/issues/new) if you have ideas for how the scheme could be improved.
+
 ## Archive Names
 
 #### **Name of Manga [lang] - c000-000x0-0 (mag/web/mix/v00-00) [Extra Information] [Group]{revision}.zip**
